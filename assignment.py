@@ -4,6 +4,12 @@ operator = input("Enter the operation (+, -, *, /):")
 if operator == "+":
     result = int(num1) + int(num2)
 elif operator == "-":
-    result = int(num1)
-
+    result = int(num1) - int(num2)
+elif operator == "*":
+    result = int(num1) * int(num2)
+elif operator == "/":
+    if int(num2) != 0:
+        result = int(num1) / int(num2)
+    else:
+        result = "Error invalid division by 0"
 print("The result is:", result)
