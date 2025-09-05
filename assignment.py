@@ -9,5 +9,5 @@ elif operator == "*":
     result = int(num1) * int(num2)
 elif operator == "/":
     if int(num2) != 0:
-        result = int(num1) / int(nu
+        result = int(num1) / int(num2)
 print("The result is:", result)
